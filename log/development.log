@@ -1,0 +1,70 @@
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2020-02-10 06:08:42 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gitpod/.rvm/gems/ruby-2.6.5/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gitpod/.rvm/gems/ruby-2.6.5/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.8ms | Allocations: 475)
+Completed 200 OK in 29ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 4108)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-10 06:08:43 +0000
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gitpod/.rvm/gems/ruby-2.6.5/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gitpod/.rvm/gems/ruby-2.6.5/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.8ms | Allocations: 312)
+Completed 200 OK in 30ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 3123)
+
+
+Started GET "/payment/results?user_apr=&user_years=&user_pv=" for 127.0.0.1 at 2020-02-10 06:09:10 +0000
+Processing by ApplicationController#query_payment as HTML
+  Parameters: {"user_apr"=>"", "user_years"=>"", "user_pv"=>""}
+  Rendering calculators/payment_results.html.erb within layouts/application
+  Rendered calculators/payment_results.html.erb within layouts/application (Duration: 38.3ms | Allocations: 7328)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /workspace/omnicalc-gui/public/packs
+[Webpacker] Hash: 48cb36cf97e7695fcbae
+Version: webpack 4.41.5
+Time: 2098ms
+Built at: 02/10/2020 6:09:24 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-18b1b3b449bc7d79b98b.js   69.6 KiB  application  [emitted] [immutable]  application
+js/application-18b1b3b449bc7d79b98b.js.map   79.4 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-18b1b3b449bc7d79b98b.js js/application-18b1b3b449bc7d79b98b.js.map
+[./app/javascript/packs/application.js] 695 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 2 hidden modules
+
+Completed 200 OK in 14610ms (Views: 14608.8ms | ActiveRecord: 0.0ms | Allocations: 274286)
+
+
+Started GET "/payment/results?user_apr=&user_years=&user_pv=" for 127.0.0.1 at 2020-02-10 06:10:24 +0000
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#query_payment as HTML
+  Parameters: {"user_apr"=>"", "user_years"=>"", "user_pv"=>""}
+  Rendering calculators/payment_results.html.erb within layouts/application
+  Rendered calculators/payment_results.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2675)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 112ms (Views: 109.1ms | ActiveRecord: 0.0ms | Allocations: 35253)
+
+
+Started GET "/payment/results?user_apr=&user_years=&user_pv=" for 127.0.0.1 at 2020-02-10 06:13:39 +0000
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#query_payment as HTML
+  Parameters: {"user_apr"=>"", "user_years"=>"", "user_pv"=>""}
+  Rendering calculators/payment_results.html.erb within layouts/application
+  Rendered calculators/payment_results.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1743)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 8947)
+
+
